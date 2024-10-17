@@ -1,0 +1,50 @@
+/* this style is for hero section */
+.wrapper{
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img{
+  height: 350px;
+  width: 350px;
+}
+.myimg{
+  height: 350px;
+  width: 350px;
+  background-size: cover;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.h2{
+  font-size: 50px;
+  color: #f8c291;
+}
+.p{
+  width: 600px;
+  font-size: 22px;
+  color: white;
+}
+.buttons{
+  margin-top: 70px;
+
+}
+.btn{
+  color: black;
+  background-color: #ff5e57;
+  font-size: 22px;
+  padding: 16px 18px;
+  margin-right: 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.btn:hover{
+  background-color: #FEA47F;
+}

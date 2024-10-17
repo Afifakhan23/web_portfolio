@@ -1,0 +1,61 @@
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h2{
+    text-align: center;
+    font-size: 40px;
+    color: #f8c291;
+    margin-bottom: 20px;
+}
+.container{
+    width: 900px;
+    height: 450px;
+    position: relative;
+}
+.skill1,.skill2,.skill3,.skill4,.skill5{
+    width: 180px;
+    height:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf6a87;
+    color: #30336b;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    border: 2px solid #a5b1c2;
+}
+.skill1{
+    position: absolute;
+    top: 0px;
+    left: 390px;
+}
+.skill2{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+.skill3{
+    position: absolute;
+    top: 260px;
+    left: 310px;
+}
+.skill4{
+    position: absolute;
+    top: 260px;
+    left: 480px;
+}
+.skill5{
+    position: absolute;
+    top: 100px;
+    left: 530px;
+}
